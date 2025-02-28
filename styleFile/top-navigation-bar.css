@@ -10,6 +10,10 @@
     background-color: white;
 }
 
+a{
+    all: unset;
+}
+
 .nav li{
     list-style: none;
     padding: 20px 35px;
