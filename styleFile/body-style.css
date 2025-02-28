@@ -1,0 +1,94 @@
+.cyber-deals-mainConatinor{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 20px;
+    
+}
+
+.deals-img-continer img{
+    width: 530px;
+    height: 250px;
+    padding: 10px;
+}
+
+.deals-img-continer p{
+    margin: 0;
+    width: 530px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.deals-img-continer{
+    margin-bottom: 10px;
+    width: 530px;
+    border-bottom: 1px solid rgba(211, 210, 210, 0.566);
+
+}
+
+.Deals-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 550px;
+    height: 370px;
+}
+
+.Deals-container button{
+    width: 180px;
+    height: 45px;
+    margin-left: auto;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+.Deals-line{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 1.5px;
+    background-color: rgba(87, 85, 85, 0.585);
+    
+}
+.Deals{
+
+    position: absolute;
+
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px;
+
+    top: -38px;
+    left: 530px;
+    background-color: rgb(241, 237, 237);
+}
+
+.priceand-btn{
+    display: flex;
+    
+}
+.price{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dealsBtn{
+    height: 30px;
+    margin-bottom: 10px;
+    width: 180px;
+    
+}
