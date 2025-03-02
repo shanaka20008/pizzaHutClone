@@ -24,3 +24,27 @@ document.querySelectorAll(".add-BTN").forEach(button => {
         document.querySelector(".infor-p-container").textContent = "";
     });
 });
+
+
+document.querySelectorAll(".option-selection-size").forEach(select => {
+
+    select.addEventListener("change", function () {
+
+        let card = this.closest(".main-div"); 
+
+        let priceElement = card.querySelector(".price"); 
+
+        if (priceElement) {
+
+            let selectedOption = this.options[this.selectedIndex].text; // Get the selected option text
+
+            let priceMatch = selectedOption.match(/Rs:\s?(\d+)/i); 
+
+            if (priceMatch) {
+
+                priceElement.textContent = "RS. " + priceMatch[1] + ".00"; 
+            }
+        }
+    });
+});
+
