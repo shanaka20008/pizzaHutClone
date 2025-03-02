@@ -25,11 +25,34 @@
 
         display: flex;
         flex-direction: column;
+        position: relative;
         width: 270px;
         height: 650px;
         background-color: white;
 
     }
+
+.vegi-rectongel{
+    display: flex;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid red;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    top: 226px;
+    left: 5px;
+}
+
+.vegi-circle{
+    display: flex;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: red;
+    border-radius: 6px;
+}
 
 
 .img-div{
@@ -101,6 +124,16 @@
 }
 
 .option-selection{
+    margin-top: 12px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    background-color: rgba(235, 230, 230, 0.675);
+    border: none;
+}
+.option-selection-size{
     margin-top: 12px;
     height: 40px;
     border-radius: 5px;
