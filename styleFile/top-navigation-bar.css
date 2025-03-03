@@ -72,3 +72,16 @@ a{
     left: 460px;
     background-color: rgb(241, 237, 237);
 }
+
+.Melts{ /* melts page title style*/
+
+    position: absolute;
+
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px;
+
+    top: -38px;
+    left: 520px;
+    background-color: rgb(241, 237, 237);
+}

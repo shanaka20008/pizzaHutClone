@@ -32,6 +32,26 @@
 
     }
 
+.main-div-melts{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 270px;
+    height: 580px;
+    background-color: white;
+}
+
+
+.main-div-melts-div{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 270px;
+    height: 420px;
+    background-color: white;
+}
+
 .vegi-rectongel{
     display: flex;
     position: absolute;
@@ -68,6 +88,21 @@
 }
 
 .img-div img{
+    width: 250px;
+    height: 250px;
+}
+
+.img-div-melts-div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    border-bottom: 1px solid rgba(171, 168, 168, 0.627);
+}
+
+.img-div-melts-div img{
     width: 250px;
     height: 250px;
 }
